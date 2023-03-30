@@ -1,0 +1,36 @@
+{
+  "name": "acon",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --exit-child --watch src src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xsip",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "babel-loader": "^8.2.5",
+    "eslint": "8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-destructuring": "^2.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
